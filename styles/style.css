@@ -1,12 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
 body {
     font-size: 50px;
     /*font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'IBM Plex Mono', monospace;
-    font-family: 'IBM Plex Sans', sans-serif;*/
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;*/
+}
+
+
+@media only screen and (max-width: 1200px){
+    .main-container
+}
+
+.tipografia-sans {
+    color: #060A24;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.tipografia-mono {
+    font-size: 1rem;
+    color: #060A24;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.tipografia-semibold {
+    font-size: 1.5rem ;
+    color: #060A24;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.tipografia-mono-medium {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+    font-size: 1.125rem;
+    
+}
+
+h1 {
+    font-size: 5.25rem;
+}
+
+.main-container {
+    font-size: 1rem;
+    color: #060A24;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header {
+    height: 80px;
+    width: 1440px;
+    background-color: #FFFFFF;
+    display: flex;
 }
