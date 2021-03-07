@@ -69,10 +69,12 @@ header {
 
 }
 
+
 .topnav {
     background-color: #FFFFFF;
     overflow: hidden;
 }
+
 
 .topnav a {
   float: left;
@@ -80,7 +82,6 @@ header {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 
 
 .topnav-right a:hover {
@@ -94,4 +95,34 @@ header {
   position: absolute;
   right: 6.9%;
 
+}
+
+/*------>PART 1<-------*/
+
+
+.title {
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 32%;
+}
+
+.through {
+    text-decoration-line: line-through;
+}
+
+p {
+    line-height: 24px;
+    margin-right: 20%;
+    text-align: left;
+}
+
+button {
+    width: 226px;
+    height: 56px;
+    opacity: 100%;
+    background-color: #00F3BB;
+    border: none;
+    margin-top: 4%;
+    font-weight: bold;
 }
