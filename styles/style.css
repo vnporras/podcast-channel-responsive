@@ -23,12 +23,15 @@ body {
 
 @media only screen and (max-width: 1200px){
     .main-container {
-        width: 1000px;
+        width: 1440px;
     }
 }
 
 body {
     overflow-x: hidden;
+    overflow-y: scroll;
+    width: 1440px;
+
 }
 .tipografia-sans {
     color: #060A24;
@@ -97,7 +100,7 @@ header {
 
 }
 
-/*------>PART 1<-------*/
+/*------>FIRST PART<-------*/
 
 
 .title {
@@ -125,4 +128,18 @@ button {
     border: none;
     margin-top: 4%;
     font-weight: bold;
+}
+
+/*------>SECOND PART<-------*/
+
+.container {
+    width: 1440px;
+    height: 1042.6px;
+    
+}
+.blue {
+    background: blue;
+}
+.mask {
+    clip-path: polygon(1440px 0px, 1440px 800px, 0px 1042.6px, 0px 200px );
 }
