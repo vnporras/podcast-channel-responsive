@@ -186,3 +186,27 @@ button {
     height: 900px;
     position: absolute; left: 400px; top: 1450px;
 }
+
+/*------>FOURTH PART<-------*/
+
+.fourth-part h4 {
+    margin-top: 700px;
+    height: 62px;
+    width: 600px;
+    font-size: 48px;
+    margin-left: 450px;
+
+}
+
+.fourth-part {
+    width: ;
+}
+
+.fourth-part img {
+    width: 480px;
+    height: 364px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    float: left;
+    
+}
