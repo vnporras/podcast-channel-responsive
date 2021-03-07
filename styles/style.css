@@ -21,7 +21,7 @@ body {
 }
 
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1440px){
     .main-container {
         width: 1440px;
     }
@@ -29,8 +29,7 @@ body {
 
 body {
     overflow-x: hidden;
-    overflow-y: scroll;
-    width: 1440px;
+    height: 100%;
 
 }
 .tipografia-sans {
@@ -114,7 +113,7 @@ header {
     text-decoration-line: line-through;
 }
 
-p {
+title p {
     line-height: 24px;
     margin-right: 20%;
     text-align: left;
@@ -133,13 +132,57 @@ button {
 /*------>SECOND PART<-------*/
 
 .container {
-    width: 1440px;
-    height: 1042.6px;
-    
+    width: 100%;
+    height: 1200px;
+    position: absolute;
 }
 .blue {
-    background: blue;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
 }
 .mask {
-    clip-path: polygon(1440px 0px, 1440px 800px, 0px 1042.6px, 0px 200px );
+    clip-path: polygon(100% 0%, 100% 80%, 0% 1200px, 0% 20% );
+}
+
+.title2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.content-container {
+    height: 62px;
+    width: 209px;
+    padding: 180px;
+    margin-top: 7%;
+    display: flex;
+    position: absolute;
+    justify-content: start; 
+  }
+
+/*------>THIRD PART<-------*/
+
+.third-part {
+    width: 600px;
+    height: 60px;
+    margin-top: 1220px;    
+    margin-left: 1100px;
+    margin-bottom: 500px;
+    
+}
+
+.title3 {
+    font-size: 48px;
+}
+
+.paragraph2 {
+    font-size: 16px;
+    width: 490px;
+    line-height: 24px;
+    margin-top: 2%;
+}
+
+.third-part img {
+    width: 600px;
+    height: 900px;
+    position: absolute; left: 400px; top: 1450px;
 }
