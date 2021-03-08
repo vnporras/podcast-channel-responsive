@@ -22,7 +22,7 @@ body {
 
 
 @media only screen and (max-width: 1440px){
-    .main-container {
+    html, body .main-container {
         width: 1440px;
     }
 }
@@ -132,7 +132,7 @@ button {
 /*------>SECOND PART<-------*/
 
 .container {
-    width: 100%;
+    width: 1440px;
     height: 1200px;
     position: absolute;
 }
@@ -162,45 +162,47 @@ button {
 /*------>THIRD PART<-------*/
 
 .third-part {
-    width: 600px;
     height: 60px;
     margin-top: 1220px;    
-    margin-left: 1100px;
+    margin-left: 600px;
     margin-bottom: 500px;
     
 }
 
 .title3 {
     font-size: 48px;
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
 
 .paragraph2 {
     font-size: 16px;
     width: 490px;
-    line-height: 24px;
-    margin-top: 2%;
+    line-height: 30px;
+    top: 1512px;
+    left: 800px;
+    opacity: 100%;
+    margin-left: 100px;
 }
 
 .third-part img {
-    width: 600px;
-    height: 900px;
-    position: absolute; left: 400px; top: 1450px;
+    width: 457.6px;
+    height: 660px;
+    position: absolute; 
+    left: 200px; 
+    top: 1450px;
 }
 
 /*------>FOURTH PART<-------*/
 
 .fourth-part h4 {
-    margin-top: 700px;
     height: 62px;
-    width: 600px;
+    width: 600px;   
     font-size: 48px;
-    margin-left: 450px;
+    margin-left: 100px;
 
 }
 
-.fourth-part {
-    width: ;
-}
 
 .fourth-part img {
     width: 480px;
@@ -208,5 +210,50 @@ button {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     float: left;
-    
+}
+
+/*------>FIFTH PART<-------*/
+
+.titleFourth {
+    font-size: 48px;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 800px;
+}
+
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    margin: 100px;
+    width: 1000px;
+    font-size: 24px;
+  }
+
+
+  .items h4 {
+      width: 200px;
+  }
+
+
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4 {
+    text-align: center;
+    margin: 20px;
+  }
+
+  /*------>SIXTH PART<-------*/
+
+  .container2 {
+    width: 1440px;
+    height: 500px;
+    position: absolute;
+}
+
+.mask2 {
+    clip-path: polygon(100% 0%, 100% 100%, 0% 1200px, 0% 20% );
 }
