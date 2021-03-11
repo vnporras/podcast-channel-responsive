@@ -1,0 +1,35 @@
+.fifth-part {
+    width: 1440px;
+}
+.titleFourth {
+    font-size: 48px;
+    width: 60%;
+    padding-left: 3%;
+    padding-top: 800px;
+}
+
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1250px;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+
+  .items h4 {
+      width: 200px;
+  }
+
+
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4 {
+    text-align: center;
+    margin: 20px;
+  }

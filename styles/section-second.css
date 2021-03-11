@@ -1,0 +1,47 @@
+.container {
+    width: 1440px;
+    height: 1200px;
+    position: relative;
+}
+.blue {
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+}
+.mask {
+    clip-path: polygon(100% 0%, 100% 80%, 0% 1200px, 0% 20% );
+}
+
+.title2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.content-container {
+    height: 62px;
+    width: 209px;
+    padding: 180px;
+    margin-top: 7%;
+    position: absolute;
+    
+  }
+
+.link1,
+.link2 {
+    padding-top: 400px;
+}
+
+
+.spotify {
+   width: 1440px;
+   position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 200px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4 {
+    margin: 50px;
+}

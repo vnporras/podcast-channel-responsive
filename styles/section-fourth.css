@@ -1,0 +1,20 @@
+.fourth-part {
+    width: 1440px;
+}
+
+.fourth-part h4 {
+    height: 62px;
+    width: 600px;   
+    font-size: 48px;
+    margin-left: 100px;
+
+}
+
+
+.fourth-part img {
+    width: 440px;
+    height: 334px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    float: left;
+}

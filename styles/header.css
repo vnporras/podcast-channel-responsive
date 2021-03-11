@@ -1,0 +1,42 @@
+header {
+    width: 1440px;
+    height: 80px;
+    
+}
+
+
+.main-container a img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 6.9%;
+
+}
+
+
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav-right a:hover {
+  background-color: #ddd;
+  height: 100%;
+}
+
+
+.topnav-right {
+  float: right;
+  position: absolute;
+  right: 6.9%;
+
+}

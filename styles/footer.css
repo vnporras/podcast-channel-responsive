@@ -1,0 +1,38 @@
+.container2 {
+    width: 1440px;
+    height: 500px;
+    position: absolute;
+    justify-content: center;
+}
+
+.mask2 {
+    clip-path: polygon(100% 0%, 100% 100%, 0% 1200px, 0% 20% );
+}
+
+
+.sixth-part {
+    height: 62px;
+    width: 209px;
+    padding: 180px;
+    margin-top: 7%;
+    position: absolute;
+    text-align: center;   
+    
+}
+
+
+.sixth-part h4 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: normal;
+    width: 800px;
+}
+
+
+button {
+    font-size: 18px;
+    width: 345px;
+    height: 56px;
+    cursor: pointer;
+    border: none;
+}
